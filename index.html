@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <title>Practica #1</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <header>
+        <img
+          src="./assets/images/Logo-Olive-Garden.png"
+          alt="Logo Olive Garden"
+          style="border: 0px; height: 150px; width: 220px; margin-left: 50px"
+        />
+      </header>
+      <nav class="nav-bar">
+        <h2 style="margin-left: 60px;">Menu</h2>
+        <h2>Reservaciones</h2>
+        <h2>Contacto</h2>
+        <h2>Nosotros</h2>
+      </nav>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="fila">
+      <div class="columna div-lasagna">
+        <img src="./assets/images/Lasagna.jpeg" alt="Lasagna Clasica" />
+        <h3>Lasagna</h3>
+        <input min="1" type="number" id="cant_La" required /><br /><br />
+        <button onclick="confirmarLasagna()">AGREGAR</button>
+      </div>
+      <div class="columna div-pasta">
+        <img src="./assets/images/Spaghetti.jpeg" alt="Spaghetti" />
+        <h3>Spaghetti</h3>
+        <input min="1" type="number" id="cant_Sp" required /><br /><br />
+        <button onclick="confirmarPasta()">AGREGAR</button>
+      </div>
+      <div class="columna div-limonada">
+        <img src="./assets/images/Limonada.jpeg" alt="Limonada" />
+        <h3>Limonada</h3>
+        <input min="1" type="number" id="cant_Li" required /><br /><br />
+        <button onclick="confirmarLimonada()">AGREGAR</button>
+      </div>
+      <div class="columna div-pastel">
+        <img src="./assets/images/Cheesecake.jpeg" alt="Cheesecake" />
+        <h3>Cheesecake</h3>
+        <input min="1" type="number" id="cant_Ch" required /><br /><br />
+        <button onclick="confirmarPastel()">AGREGAR</button>
+      </div>
+    </div>
+    <br/>
+    <footer>
+      <div>
+        <h4>Contacto</h4>
+        <p>+506 1122-3344</p>
+      </div>
+      <div>
+        <h4>Redes Sociales</h4>
+        <a
+          href="https://www.instagram.com/olivegarden_cr/?hl=es"
+          target="_blank"
+          ><img
+            src="https://i2.wp.com/wouterkoene.com/wp-content/uploads/2017/02/insta-logo.png?ssl=1"
+            alt=""
+        /></a>
+        <a
+          href="https://www.facebook.com/people/Olive-Garden/100064500322156/"
+          target="_blank"
+          ><img
+            src="https://th.bing.com/th/id/OIP.W_hs0wlAsHBTZFBWR3TH-gAAAA?pid=ImgDet&rs=1"
+            alt=""
+        /></a>
+        <a
+          href="https://twitter.com/olivegarden?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          target="_blank"
+          ><img
+            src="https://th.bing.com/th/id/R.79911da7ffca55c630631e18050cd5b0?rik=jaowhGILNyAa6g&pid=ImgRaw&r=0"
+            alt=""
+        /></a>
+      </div>
+      <div class="ubicacion">
+        <h4>Ubicacion</h4>
+        <a
+          href="https://www.google.com/search?q=olive+garden&tbm=lcl&sxsrf=APwXEddrv_pMkX_o8PAOCtKPm044vsODmg%3A1687808954252&ei=uuuZZKqED7iFkvQPv6qjuAc&oq=olive+&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAEYATIECCMQJzIECCMQJzIKCAAQigUQyQMQQzIICAAQgAQQkgMyCAgAEIAEEJIDMgcIABCKBRBDMgcIABCKBRBDMgUIABCABDIFCAAQgAQyBQgAEIAEOg0IABCKBRCxAxCDARBDOgoIABCKBRCxAxBDOgsIABCKBRCxAxCDAToICAAQgAQQsQM6CwgAEIAEELEDEIMBOgcIIxDqAhAnOggIABCKBRCSAzoLCAAQgAQQkgMQywE6CAgAEIAEEMsBOgoIABCABBAKEMsBUPEBWIcUYJUdaAJwAHgAgAHuA4gBlxCSAQkwLjguMS4xLjGYAQCgAQGwAQrAAQE&sclient=gws-wiz-local#rlfi=hd:;si:3253627895143623474,l,CgxvbGl2ZSBnYXJkZW4iA4gBAUj1nP7Lr7CAgAhaHhAAEAEYABgBIgxvbGl2ZSBnYXJkZW4qBggCEAAQAZIBEml0YWxpYW5fcmVzdGF1cmFudKoBRhABKhAiDG9saXZlIGdhcmRlbigOMh4QASIaNk9Qu7akDIjJwmy1UKyk7_lJanJqw-iQOXEyEBACIgxvbGl2ZSBnYXJkZW4;mv:[[9.9596167,-84.0097104],[9.918444299999999,-84.20681379999999]]"
+          target="_blank"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/854/854878.png"
+            alt=""
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

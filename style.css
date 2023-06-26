@@ -1,0 +1,81 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+html{
+    background-color: #F2EDE4;
+}
+img{
+    height: 200pt;
+    width: 200pt;
+    border: 3px solid #59331D ;
+}
+.fila {
+    display: flex;
+    text-align: center;
+  }
+
+.columna {
+    flex: 25%;
+    padding: 5px;
+  }
+nav h2{
+    margin: 0px;
+    display: inline-block;
+    margin-right:15px ;
+    border-left: 2px solid #59331D;
+    padding-left: 10px;
+    margin-right: 50px;
+    
+}
+.nav-bar{
+margin-left: 80px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+button{
+    padding: 8px;
+    background-color: #59331D;
+    color: #F2EDE4;
+    border-radius: 5px;
+    border-style: outset;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #A65F37;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 80px;
+    color: #594A41;
+}
+
+footer img{
+    width: 20px;
+    height: auto;
+    border:0px;
+}
+
+.ubicacion img{
+    border:0px;
+    margin-top: 0px;
+    width: 40px;
+    height: auto;
+}
+
+.acomodo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
